@@ -19,7 +19,9 @@ This project is a simple elevator simulation developed in PHP. It allows you to 
    cd ElevatorStructure
 
 2. Install dependencies using Composer :
+    ```bash
     composer install
 
 3. Run the index.html file to test the elevetor functionnality:
+    ```bash
     php public/index.php
