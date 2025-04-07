@@ -1,0 +1,11 @@
+{
+  "description": "A simple elevator simulation project.",
+  "autoload": {
+      "psr-4": {
+          "ElevatorStructure\\": "src/"
+      }
+  },
+  "require": {
+      "php": ">=7.4"
+  }
+}
