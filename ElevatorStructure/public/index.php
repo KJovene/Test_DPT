@@ -1,8 +1,11 @@
 <?php
 
 require_once __DIR__ . "/../src/Elevator.php";
+require_once __DIR__ . "/../src/ElevatorHardwareInterface.php";
+require_once __DIR__ . "/../src/Hardware.php";
 
-$elevator = new Elevator();
+$hardware = new HardwareIn();
+$elevator = new Elevator($hardware);
 
 echo "Starting at floor : " . $elevator -> getCurrentFloor() . "\n";
 
